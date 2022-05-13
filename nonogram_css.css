@@ -1,0 +1,40 @@
+button {
+
+    vertical-align: top;
+    height: 50px;
+    width: 16.67%;
+    border: 1px solid black; 
+}
+
+.filled {
+    background-color: #93d398;
+}
+
+.blank {
+    background-color: white;
+}
+
+.empty {
+    background-color: pink;
+}
+
+.header {
+    display: inline-flex;
+}
+
+.board {
+    max-width: 300px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+li {
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#options, ul, h1 {
+    padding-left: 0px;
+    text-align: center;
+}
